@@ -60,7 +60,7 @@ The algorithm I implemented looked something like this:
 4. Create a decision node that splits on `alpha_best`.
 5. Repeat on the sublists obtained by splitting on `alpha_best`, and add those nodes as children of this node
 
-Additionally, it's worth noting that I switched my evaluation metric to Gini impurity<a href="https://en.wikipedia.org/wiki/Cross-validation_(statistics)#k-fold_cross-validation">[5]</a></sup>. I hoped to use this to assess overall information gain, and it seemed more promising than measuring entropy like some of my classmates chose to do.
+Additionally, it's worth noting that I switched my evaluation metric to Gini impurity<sup><a href="https://en.wikipedia.org/wiki/Cross-validation_(statistics)#k-fold_cross-validation">[5]</a></sup>. I hoped to use this to assess overall information gain, and it seemed more promising than measuring entropy like some of my classmates chose to do.
 
 After implementing this, I wrote a function to produce classifications for a list of features once the decision tree had been built.
 
