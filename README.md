@@ -44,7 +44,7 @@ Due to the limited supply of data, and the very small set of attributes to exami
 
 # The Core
 
-After working with my simple data set, it was time to move on to a large .csv file with tens of thousands of entries. My goal was to achieve over 70% test accuracy after training, and I began working towards this.
+After working with my simple data set, it was time to move on to a large .csv file with tens of thousands of entries. Each sample had many attributes, with seemingly meaningless and wildly varying numbers associated with each attribute. My goal was to achieve over 70% test accuracy after training, and I began working towards this.
 
 As the size of my training set grew, it became impractical to build the trees by hand. I needed a procedure to automatically construct the trees for me!
 
